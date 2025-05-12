@@ -103,16 +103,16 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
         compatible = "zmk,keymap";
         default_layer { // ColemakDHm
             bindings = <
-            &kp Q         &kp W         &kp E            &kp R            &kp T              &kp Y         &kp U              &kp I            &kp O         &kp P 
+            &kp Q         &kp W         &kp E            &kp R            &kp T              &kp Y         &kp U              &kp I            &kp O         &kp O 
             &hml LCTRL A  &hml LALT S   &hml LGUI D      &hml LSHFT F     &kp G              &kp H         &hmr RSHFT J       &hmr RGUI K      &hmr LALT L   &hmr RCTRL APOS
-&kp TAB    &kp Z         &kp X         &hml MEH C       &hml HYP V       &kp B              &kp N         &hmr HYP M         &hmr_meh MEH 0   &dot_morph    &qexcl        &kp TAB
-                                        &lt UTIL ESC     &lt NAV SPACE    &sk LSHFT          &kp RET       &lt NUM BSPC       &lt FUN DEL
+ &kp TAB    &kp Z         &kp X         &hml MEH C       &hml HYP V       &kp B              &kp N         &hmr HYP M         &hmr_meh MEH 0   &dot_morph    &qexcl        &kp TAB
+                                        &lt UTIL ENTER   &lt NAV ESC      &sk TAB            &kp SPACE     &lt NUM BSPC       &lt FUN DEL
             >;
         };
         nav_layer { 
             bindings = <
             ___          ___          ___             ___             ___                ___           &kp HOME          &kp UP          &kp END       &kp PAGE_UP 
-            &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT       ___                ___           &kp LEFT          &kp DOWN        &kp RIGHT     &kp PAGE_DOWN
+            &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT       ___                &kp LEFT      &kp DOWN          &kp UP          &kp RIGHT     &kp PAGE_DOWN
     BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp TILDE         ___             &kp FSLH      ___             FWD
                                        ___            ___             ___                &kp RET       &kp BSPC          &kp DEL
             >;
